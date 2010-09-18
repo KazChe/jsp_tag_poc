@@ -1,0 +1,440 @@
+<!--Share Widget starts-->
+	<div id="overlay_background"></div>
+<div id="captcha_help_overlay" class="overlay">
+
+<div class="overlay_content">
+<span class="title_txt"><h2>Instructions</h2></span>
+<p>Please enter the letters and / or numbers you see in the box, in order without spaces. Doing so helps prevent automated programs from abusing this service.</p>
+<p>If you are not sure what the letters and / or numbers are, either enter your best guess or click the reload button to request a new challenge image.</p>
+<p>Visually impaired users will need to wait some months until we support audio files on this widget</p>
+</div>
+<div><a href="javascript:void(0);" class="close_overlay" tabindex="100"></a></div>
+
+</div>
+
+
+<div id="send_mail_overlay" class="overlay">
+
+<div class="overlay_content">
+<span class="title_txt"><h2>Your Email Has Been Sent</h2></span>
+<p>Your email has been sent to the following recipient:</p>
+<span class="green" id="recipient_overlay">laurie_smith@yahoo.com</span>
+</div>
+<div class="button"><a id="more_emails" href="javascript:void(0);">SEND TO ANOTHER FRIEND</a>   <img class="arrow" src="../i/arrow_right.gif" /></div>
+<div><a href="javascript:void(0);" class="close_overlay" tabindex="100"></a></div>
+
+</div>
+
+<div id="error_mail_overlay" class="overlay">
+
+<div class="overlay_content">
+<span class="title_txt"><h2></h2></span>
+<p></p>
+</div>
+
+<div><a href="javascript:void(0);" class="close_overlay" tabindex="100"></a></div>
+</div>
+
+<div id="shareContainerInner" class="sharing_widget">
+<div id="sharesocialbox">
+<div class="share_title">
+<div class="title_icon  share_icon"></div>
+<div class="title_next_icon">
+<h3>%%header_share%%</h3>
+</div>
+</div>
+</div>
+
+<div class="below_title"></div>
+<div class="share_functions clearfix">
+<div class="share">SEND</div>
+<div class="share_functions float_left">
+<div class="shareImage email_icon"></div>
+<div class="float_left"><a id="email_article"
+	href="javascript:void(0);"> Email</a></div>
+
+<div class="shareImage email_icon png"></div>
+<div><a id="email_article" href="javascript:void(0);">%%newsroom_share_widget_email%%</a>
+</div>
+</div>
+
+<div class="share_functions float_right mobile_txt"><!--<div class="shareImage phone_icon png"></div>
+             <div class="float_left"><a id="send_to_phone" href="javascript:void(0);">Mobile Text</a> </div> -->
+</div>
+</div>
+
+<div class="rule clearfix">
+<hr />
+</div>
+
+<div class="social_networks clearfix">
+<div class="share">SHARE</div>
+<div class="shareLeftColumn">
+<div class="shareHSeparator">
+<div class="shareImage png"><img
+	src="../i/social/facebook_icon.png" height="15px" width="15px" alt="" /></div>
+<a id="facebook" href="">Facebook</a></div>
+<div class="shareHSeparator">
+<div class="shareImage"><img src="../i/social/twitter_icon.png"
+	alt="" /></div>
+<a id="twitter" href="">Twitter</a></div>
+<div class="shareHSeparator">
+<div class="shareImage"><img src="../i/social/digg_icon.png"
+	alt="" /></div>
+<a id="digg" href="">Digg</a></div>
+</div>
+<div class="shareRightColumn">
+<div class="shareHSeparator">
+<div class="shareImage"><img src="../i/social/myspace_icon.png"
+	alt="" /></div>
+<a id="myspace" href="">MySpace</a></div>
+<div class="shareHSeparator">
+<div class="shareImage"><img src="../i/social/delicious_icon.png"
+	alt="" /></div>
+<a id="delicious" href="">Del.icio.us</a></div>
+<div class="shareHSeparator">
+<div class="shareImage"><img src="../i/social/more.png" alt="" /></div>
+<a id="more_networks" href="javascript:void(0);"><span
+	class="screenReading">Show </span>More <span class="screenReading">Networks</span><span
+	class="screenReading">opens simulated dialog </span></a></div>
+</div>
+</div>
+<div class="rule clearfix">
+<hr />
+</div>
+
+<div class="copy_link clearfix">
+<div class="share">URL</div>
+<div class="shareImage">
+
+<form method="post" class="zeroMargin" name="copy_url"><label
+	for="urlBox"><span class="screenReading">Article URL to
+Copy</span></label> <input type="text" name='url_to_copy' autocomplete="off" size="20"
+	maxlength="100" id="urlBox" value="URL" /> <input type="button"
+	name="copy_submit" id="copy_submit" value="COPY" title="COPY LINK"
+	class="emailSubmit" /></form>
+</div>
+</div>
+<div class="privacy clearfix"><a class="wai_close"
+	href="javascript:void(0);"></a></div>
+
+</div>
+
+
+<!-- START shareSocialMore -->
+
+    <div id="shareSocialMore" class="gone" >
+                                        <div class="share_title"> 
+													<div class="title_icon share_icon png"></div>
+											  <div class="title_next_icon"><h3>Share</h3></div>
+                                                      <div class="title_button" > <a class="widget_back" href="javascript:void(0);"><img title="hit enter to go back to the previous simulated dialog or hit escape key" src="../i/social/close.png" /></a>  </div>
+												</div>
+                                                                                    
+                                          
+          <div class="padding_top_15 clearfix"></div>
+             
+           <div class="social_networks clearfix">
+
+											<div class="shareLeftColumn">
+															<div class="shareHSeparator"> 
+													<div class="shareImage"><img src="../i/social/facebook_icon.png" alt="" /></div>
+												<a href="">Facebook</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/twitter_icon.png" alt="" /></div>
+												<a href="">Twitter</a>												</div> 
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/digg_icon.png" alt="" /></div>
+												<a href="">Digg</a>												</div>
+                                                					<div class="shareHSeparator"> 
+													<div class="shareImage"><img src="../i/social/facebook_icon.png" alt="" /></div>
+												<a href="">Facebook</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/twitter_icon.png" alt="" /></div>
+												<a href="">Twitter</a>												</div> 
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/digg_icon.png" alt="" /></div>
+												<a href="">Digg</a>												</div>
+                                                					<div class="shareHSeparator"> 
+													<div class="shareImage"><img src="../i/social/facebook_icon.png" alt="" /></div>
+												<a href="">Facebook</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/twitter_icon.png" alt="" /></div>
+												<a href="">Twitter</a>												</div> 
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/digg_icon.png" alt="" /></div>
+												<a href="">Digg</a>												</div>
+                                                					<div class="shareHSeparator"> 
+													<div class="shareImage"><img src="../i/social/facebook_icon.png" alt="" /></div>
+												<a href="">Facebook</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/twitter_icon.png" alt="" /></div>
+												<a href="">Twitter</a>												</div> 
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/digg_icon.png" alt="" /></div>
+												<a href="">Digg</a>												</div>
+											</div>
+											<div class="shareRightColumn">
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/myspace_icon.png" alt="" /></div>
+												<a href="">MySpace</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+                                                <div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+                                                				<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/myspace_icon.png" alt="" /></div>
+												<a href="">MySpace</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+                                                <div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+                                                				<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/myspace_icon.png" alt="" /></div>
+												<a href="">MySpace</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+                                                <div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+                                                				<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/myspace_icon.png" alt="" /></div>
+												<a href="">MySpace</a>												</div>
+												<div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+                                                <div class="shareHSeparator">
+													<div class="shareImage"><img src="../i/social/delicious_icon.png" alt="" /></div>
+												<a href="">Del.icio.us</a>												</div>
+
+										 
+										</div>
+                                        </div>
+                                         <div class="padding_top_15 clearfix"></div>
+                                        
+                                    
+                                      
+										  
+                                            
+                                             <div class="privacy clearfix"><a class="wai_close" href="javascript:void(0);"></a> </div>
+	</div>
+                                           
+                                            <!-- Starts widget 2nd part for phone-->
+											<div id="shareEmailBox" class="gone">
+                                            
+                                          <div class="share_title"> 
+													<div class="title_icon email_icon png"></div>
+													<div class="title_next_icon"><h3>Email a Friend</h3></div>
+                                                    <div class="title_button" > <a class="widget_back" href="javascript:void(0);"><img title="hit enter to go back to the previous simulated dialog or hit escape key" src="../i/social/close.png" /></a>  </div>
+												</div>
+              
+                                     
+               
+       
+       <div  class="url_form clearfix">
+      <!-- <div id="email_form" class="shareImage"> -->
+                <form   class="zeroMargin" name="widget_email_page" id="widget_email_page">
+                <div class="clearfix">
+                 <div class="shareLeftColumn">
+                  <div class="text_alone">*To (name)</div>
+					<input type="text" name='t_name'  onfocus=" this.value='' " autocomplete="off" size="20" maxlength="20" title="Friend's Name" class="socialForm"  />
+                    </div>
+             
+                    <div class="shareRightColumn padding_left_40">
+                <div class="text_alone float_left">*Email address</div>
+					<input type="text" name='t_address'  onfocus=" this.value='' " autocomplete="off" size="30" maxlength="100" title="Friend's Email" class="socialForm"  />
+                    </div>
+                    </div>
+                    <div class="clearfix">
+                    <div class="shareLeftColumn ">
+                      <div class="text_alone">*From (name)</div>
+					<input type="text" name='f_name'  onfocus=" this.value='' " autocomplete="off" size="20" maxlength="20" title="Your Name" class="socialForm"  />
+                    </div>
+              
+                    <div class="shareRightColumn padding_left_40">
+                         <div class="text_alone">*Email address</div>
+                    <input type="text" name='f_address' onfocus=" this.value='' " autocomplete="off" size="30" maxlength="100" class="socialForm" title="Your Email" />
+                   </div>
+                   </div>
+
+       
+                   <div class="clearfix">
+             
+                    <div class="text_alone clearfix">Message: (optional)</div>
+                    <!--<div > Message </div> -->
+                   
+                    <!-- <div   class="shareImage"> -->
+                           <textarea  id='email_body' name='email_body' autocomplete="off"  rows="5"  cols="43"  maxlength="255" title="Message" class="socialForm clearfix"  >Enter your message here</textarea>
+                  <div class="text_alone clearfix charlimit">255 character limit</div>
+                   </div>
+                   <div class="clearfix">
+                   
+                  <div class="clearfix">
+                  
+                  <div class="captcha float_left"><img id="captcha_img" src="http://h41273.www4.hp.com/hpgc/turing/captcha.aspx?id=843B4BC14841E81DC6D20FC3025468F5" /> <div class="text_alone clearfix padding_top_15">*Type the letters and numbers above </div>
+                  <input type="text" name='captcha' onfocus=" this.value='' "  value=""autocomplete="off" size="28" maxlength="8" class="socialForm" title="Your Email" /></div>
+                  <div class="captcha_functions float_left"><input type="button" class="clearfix" id="capt_refresh" value=""/><!--<input id="capt_audio" class="clearfix" type="button"  value=""/>--><input class="clearfix"type="button"  id="capt_help" value=""/></div>
+                  
+                  </div>
+                  <div class="padding_top_15 float_left">         
+                            
+                                        <input type="checkbox" class="float_left clearfix" name='option_copy_myself'  autocomplete="off"   maxlength="100" title="Copy myself"  checked="checked"   onchange="disabled_sender()" />
+                   
+                   <span class="share_txt float_left copy_to_myself">Send a copy to myself </span>
+                       
+				  
+                  </div>
+                  <div class="mail_buttons padding_top_15">
+				  <input type="button" id="send_email" name="submit" value="SEND ►" title="Send"  class="email_button_left" />
+               	  <input type="button" name="submit" value="CANCEL" title="Cancel"  class="email_button_right cancel_button" />
+                  </div>
+                  
+                  
+                  </div>
+                    <div id="required_field" class="text_alone clearfix padding_top_15">*Required field</div>   
+                       
+                  <!-- </div> -->
+                  </form> 
+                     
+              </div>
+                   <div class="privacy clearfix"><a href="http://www8.hp.com/ie/en/privacy/privacy.html"  target="_blank" title="The information you provide will only be used to implement “Send to your friend”."><span class="link">Information usage</span> <span class="arrow">&nbsp;</span></a> </div>
+              
+            
+	</div>                                            <!--Ends widget 2nd part for phone -->
+
+<!-- END shareSocialMore -->
+
+
+
+<!-- <div class="share_functions clearfix">  <div class="shareImage phone_icon png"></div> <div><a id="send_to_phone" href="javascript:void(0);"> Send to Phone</a> </div> </div>-->
+			<hr />
+			<div id="shareLeftColumn">
+			    <!-- TemplateBeginRepeat name="component_links" -->
+				    <!-- TemplateBeginIf cond="TemplateRepeatIndex!=EmailFriendIndex" -->
+					    <!-- TemplateBeginIf cond="(TemplateRepeatIndex%2) == 0" -->
+				            <div class="shareHSeparator">
+					            <div class="shareImage">
+						            <img src="@@Get("Fields.component_links[${TemplateRepeatIndex}].image")@@" alt="" />
+						        </div>
+					            <a href="@@Get("Fields.component_links[${TemplateRepeatIndex}].Fields.link.Fields.link")@@" id="@@Get("Fields.component_links[${TemplateRepeatIndex}].Fields.id")@@">@@Get("Fields.component_links[${TemplateRepeatIndex}].link.title")@@</a>
+				            </div>				
+				        <!-- TemplateEndIf --> 
+				    <!-- TemplateEndIf --> 
+			    <!-- TemplateEndRepeat -->
+			</div>
+			<div id="shareRightColumn">
+				<!-- TemplateBeginRepeat name="component_links" -->
+				    <!-- TemplateBeginIf cond="TemplateRepeatIndex!=EmailFriendIndex" -->
+					    <!-- TemplateBeginIf cond="(TemplateRepeatIndex%2) == 1" -->
+				            <div class="shareHSeparator">
+					            <div class="shareImage">
+						            <img src="@@Get("Fields.component_links[${TemplateRepeatIndex}].image")@@" alt="" />
+						        </div>
+					            <a href="@@Get("Fields.component_links[${TemplateRepeatIndex}].Fields.link.Fields.link")@@" id="@@Get("Fields.component_links[${TemplateRepeatIndex}].Fields.id")@@">@@Get("Fields.component_links[${TemplateRepeatIndex}].link.title")@@</a>
+				            </div>				
+				        <!-- TemplateEndIf --> 
+				    <!-- TemplateEndIf --> 
+			    <!-- TemplateEndRepeat -->
+				<div class="clearfix">
+				</div>
+				<!-- TemplateBeginRepeat name="component_links" -->
+			        <!-- TemplateBeginIf cond="TemplateRepeatIndex=EmailFriendIndex" -->
+				<div class="privacy">
+					<a href="@@Get("Fields.component_links[${TemplateRepeatIndex}].Fields.link_privacy_statement.Fields.link")@@">@@Get("Fields.component_links[${TemplateRepeatIndex}].Fields.link_privacy_statement.Fields.title")@@</a>
+				</div>
+				<div class="arrow png">
+				</div>
+				    <!-- TemplateEndIf --> 
+		        <!-- TemplateEndRepeat -->
+			</div>
+			<div>
+				<!-- More is currently undefined <div class="shareImage"><img src="../../../i/white_triangle.png" alt="" /> </div> More -->
+			</div>
+		</div>
+		<!-- Starts widget 2nd part for phone-->
+		<div id="shareEmailBox" class="gone">
+			<div class="share_title">
+				<div class="title_icon email_icon png">
+				</div>
+				<div class="title_next_icon">
+					%%newsroom_share_widget_email%%</div>
+				<div class="title_button">
+					<div class="back_arrow png">
+					</div>
+					<a class="widget_back" href="javascript:void(0);">%%action_back%%</a>
+				</div>
+			</div>
+			<div class="below_title">
+			</div>
+			<div class="url_form ">
+				<!-- <div id="email_form" class="shareImage"> -->
+				<form class="zeroMargin" name="widget_email_page">
+				<input type="text" name='address' onfocus=" this.value='' " autocomplete="off" size="30"
+					maxlength="100" title="%%newsroom_share_widget_FriendEmail%%" class="socialForm" value="%%newsroom_share_widget_email_to%%" />
+				<input type="text" name='your_name' onfocus=" this.value='' " autocomplete="off"
+					size="30" maxlength="100" class="socialForm" value="%%newsroom_share_widget_your_name%%" />
+				<input type="text" name='your_email' onfocus=" this.value='' " autocomplete="off"
+					size="30" maxlength="100" class="socialForm" title="%%newsroom_share_widget_your_email%%" value="%%newsroom_share_widget_your_email%% (%%newsroom_share_widget_optional%%)" />
+				<input type="hidden" id='email_subject' name='email_subject' autocomplete="off" size="30"
+					maxlength="100" class="socialForm" title="Subject" value="%%newsroom_share_widget_email_subject%%" />
+				<input type="checkbox" class="lefty" name='option_copy_myself' autocomplete="off"
+					size="15" maxlength="100" title="Copy myself" checked="checked" onchange="disabled_sender()" />
+				<span class="share_txt">%%newsroom_share_widget_email_copy%%</span>
+				<div class="below_title">
+				</div>
+				<div class="text_alone">
+					Message</div>
+				<!--<div > Message </div> -->
+				<!-- <div   class="shareImage"> -->
+				<textarea id='email_body' name='email_body' autocomplete="off" rows="5" cols="23"
+					maxlength="500" title="Message" class="socialForm" value="">%%newsroom_share_widget_your_message%%</textarea>
+				<input id='recommendation' type="hidden" name='recommendation' autocomplete="off"
+					rows="3" cols="23" maxlength="500" class="socialForm" value="" />
+				<input type="button" name="submit" value="%%action_submit%% &#9654;" title="Submit" onclick="mailThisUrl();"
+					class="email_button_right" />
+				<!-- </div> -->
+				</form>
+			</div>
+		</div>
+		<!--Ends widget 2nd part for phone -->
+		<!--Starts widget 3rd part for mailbox -->
+		<div id="sharePhoneBox" class="gone">
+			<div class="share_title">
+				<div class="title_icon phone_icon png">
+				</div>
+				<div class="title_next_icon">
+					%%newsroom_share_widget_Send_Phone%%</div>
+				<div class="title_button">
+					<div class="back_arrow png">
+					</div>
+					<a class="widget_back" href="javascript:void(0);">%%action_back%%</a>
+				</div>
+			</div>
+			<div class="below_title">
+			</div>
+			<div class="url_form ">
+				<div class="text_alone">
+					%%newsroom_share_widget_phone%%
+					<br />
+					%%newsroom_share_widget_phone_eg%%</div>
+				<form method="post" onsubmit="return send_sms(this);" action="../jsp/sms_us.jsp"
+				class="zeroMargin" name="widget_phone_page">
+				<input type="hidden" name="country_code" value="@@pubCountryCode@@" />
+				<input type="text" id="phone_number_id" name='phone_number' autocomplete="off" size="31"
+					maxlength="10" class="socialForm" title="%%newsroom_share_widget_phone_message%%" onfocus=" this.value='' "
+					value="%%newsroom_share_widget_phone_message%%" onkeypress='validate(event)' />
+				<input type="text" name='phone_name' autocomplete="off" size="31" maxlength="10"
+					class="socialForm" title="%%newsroom_share_widget_your_name%%" value="%%newsroom_share_widget_your_name%%" onfocus=" this.value='' " />
+				<input type="submit" name="submit" value="%%action_submit%% &#9654;" title="Submit" class="email_button_right" />
+				<div id="error_msg">
+				</div>
+				</form>
+			</div>
+		</div>
+		<!--END widget 3rd part for mailbox-->
+	</div>
+	<!--End of share Widget-->

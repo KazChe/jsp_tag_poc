@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" 
+"http://java.sun.com/j2ee/dtds/web-jsptaglibrary_2_1.dtd">
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>2.1</jspversion>
+	<shortname>MyShortName</shortname>
+	<info>ADD INFO ABOUT YOUR Tag library</info>
+  <!-- A Simple tag -->
+  <tag>
+    <name>hello</name>
+    <tagclass>com.hp.tags.BaseTagHandler</tagclass>
+  <!-- Body content can have a value of 
+  	   empty: no body 
+       JSP: body that is evaluated by container, then possibly processed by the tag 
+       tagdependent: body is only processed by tag; JSP in body is not evaluated.
+   -->
+    <!-- <bodycontent>JSP</bodycontent> -->
+    <bodycontent>scriptless</bodycontent>
+    <info>
+	This is a simple hello tag.
+    </info>
+  <!-- Optional attributes  -->
+  <!-- personalized name -->
+  <attribute>
+      <name>name</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+  </attribute>
+</tag>
+</taglib>
