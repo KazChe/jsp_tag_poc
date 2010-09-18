@@ -10,6 +10,7 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 public class BaseTagHandler extends SimpleTagSupport {
 
 	private String nameAttrValue;
+	private String someDummyString;
 	
 	public BaseTagHandler() {
 	}
